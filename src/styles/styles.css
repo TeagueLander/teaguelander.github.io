@@ -1,5 +1,6 @@
 body {
-  font-family: Helvetica;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  line-height: 1.25;
   color: #434343;
 }
 
@@ -19,41 +20,58 @@ body {
   max-width: 44em;
   margin: auto;
   padding: 1em 1em 1em;
-  /*background: #f0f8ff;*/
   background-image: linear-gradient( rgba(255,255,255,.5), rgba(255,255,255,.5) );
   border-radius: 25px
 }
-
+  
 /* Header */
 .header {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.header__name {
+  /*margin-top: 0.4em;*/
+  /*margin-bottom: 0.2em;*/
+  /*font-size: 32px;*/
+}
+.header__contact {
+  text-align: right;
+  font-size: 0.9em;
+  padding: 1em;
+  /*border-style: solid;*/
+  /*border-radius: 25px;*/
+  list-style: none;
 }
 
 /* Occupation Item (used in Education/Work Experience) */
-.occ-item__header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.occ-item {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 1.5em;
+  position: relative;
 }
-.occ-item__title, .occ-item__company, .occ-item__date, .occ-item__location {
-  /*flex-basis: 50%;*/
+.occ-item__header {}
+.occ-item__title {}
+.occ-item__company { display: inline-block; font-style: italic; }
+.occ-item__company::after { }
+.occ-item__date { float: none; }
+.occ-item__location { display: none; }
+
+.section {
+  margin-bottom: 1.5em;
 }
-.occ-item__title {
-  order: 1;
+.section__title {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0.4em;
 }
-.occ-item__date {
-  order: 2;
-  text-align: right;
-}
-.occ-item__company {
-  order: 3;
-}
-.occ-item__location {
-  order: 4;
-  text-align: right;
+.section-ul {
+  margin-top: 0.5em;
+  padding-left: 1.5em;
+  /*margin-bottom: 0;*/
+  list-style-type: circle;
 }
 
 /* For web and PDF exclusive content */
@@ -62,4 +80,38 @@ body {
 }
 .web-excl-alt {
   display: none;
+}
+
+@media print {
+  body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    line-height: 1.1;
+    font-size: 0.9rem;
+    color: #434343;
+  }
+  
+  .web-excl {
+    display: none;
+  }
+  .web-excl-alt {
+    display: initial;
+  }
+}
+
+
+@media screen and (min-device-width: 768px) {
+  .header__name {
+    margin-top: 1.2em;
+  }
+  .container {
+    padding: 1em 3em 1em;
+  }
+}
+
+@media screen, print and (min-device-width: 768px) {
+  .occ-item__date {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
