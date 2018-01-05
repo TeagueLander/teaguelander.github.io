@@ -1,22 +1,59 @@
 body {
-	font-family: Helvetica;
-	background: #ffffff;
-	color: #323232;
-	background-image: url("background/triangular.png"); /* From www.toptal.com/designers/subtlepatterns/ */
+  font-family: Helvetica;
+  color: #434343;
+}
+
+.background {
+  top: 0;
+  left: 0;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-image:
+    linear-gradient( rgba(35,201,255,.3), rgba(0,255,0,.3) ),
+    url("background/triangular.png"); /* From www.toptal.com/designers/subtlepatterns/ */
 }
 
 .container {
-	max-width: 60em;
-	margin: auto;
+  max-width: 60em;
+  margin: auto;
+  padding: 0 2em 1em;
+  /*background: #f0f8ff;*/
+  background-image: linear-gradient( rgba(255,255,255,.5), rgba(255,255,255,.5) );
+  border-radius: 25px
 }
 .header {
-	margin: auto;
-	display: inline-block;
+  margin: auto;
+  display: inline-block;
+}
+
+.occ-item__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.occ-item__title, .occ-item__company, .occ-item__date, .occ-item__location {
+  flex-basis: 50%;
+}
+.occ-item__title {
+  order: 1;
+}
+.occ-item__date {
+  order: 2;
+  text-align: right;
+}
+.occ-item__company {
+  order: 3;
+}
+.occ-item__location {
+  order: 4;
+  text-align: right;
 }
 
 .web-excl {
-	/*display: none;*/
+  /*display: none;*/
 }
 .web-excl-alt {
-	display: none;
+  display: none;
 }
