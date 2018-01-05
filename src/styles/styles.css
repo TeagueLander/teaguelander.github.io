@@ -2,7 +2,18 @@ body {
 	font-family: Helvetica;
 	background: #ffffff;
 	color: #323232;
+	background-image: url("background/triangular.png"); /* From www.toptal.com/designers/subtlepatterns/ */
 }
+
+.container {
+	max-width: 60em;
+	margin: auto;
+}
+.header {
+	margin: auto;
+	display: inline-block;
+}
+
 .web-excl {
 	/*display: none;*/
 }
