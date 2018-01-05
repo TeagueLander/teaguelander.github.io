@@ -11,30 +11,35 @@ body {
   min-height: 100%;
   z-index: -1;
   background-image:
-    linear-gradient( rgba(35,201,255,.3), rgba(0,255,0,.3) ),
+    linear-gradient( rgba(35,201,255,.3), rgba(35,255,0,.3) ),
     url("background/triangular.png"); /* From www.toptal.com/designers/subtlepatterns/ */
 }
 
 .container {
-  max-width: 60em;
+  max-width: 44em;
   margin: auto;
-  padding: 0 2em 1em;
+  padding: 1em 1em 1em;
   /*background: #f0f8ff;*/
   background-image: linear-gradient( rgba(255,255,255,.5), rgba(255,255,255,.5) );
   border-radius: 25px
 }
+
+/* Header */
 .header {
   margin: auto;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+/* Occupation Item (used in Education/Work Experience) */
 .occ-item__header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .occ-item__title, .occ-item__company, .occ-item__date, .occ-item__location {
-  flex-basis: 50%;
+  /*flex-basis: 50%;*/
 }
 .occ-item__title {
   order: 1;
@@ -51,6 +56,7 @@ body {
   text-align: right;
 }
 
+/* For web and PDF exclusive content */
 .web-excl {
   /*display: none;*/
 }
