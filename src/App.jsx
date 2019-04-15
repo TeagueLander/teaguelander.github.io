@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import HelloWorld from './components/hello-world';
+import MyDetails from './MyDetails/MyDetails';
+import WorkExperience from './WorkExperience/WorkExperience';
+import Education from './Education/Education';
+import SideProjects from './SideProjects/SideProjects';
 
 class App extends Component {
   constructor(props) {
@@ -9,7 +12,16 @@ class App extends Component {
   }
 
   render() {
-    return <HelloWorld title="Hello from React webpack" />;
+    return (
+      <div>
+        <MyDetails />
+        <br />
+        <br />
+        <Education />
+        <SideProjects />
+        <WorkExperience />
+      </div>
+    );
   }
 }
 
