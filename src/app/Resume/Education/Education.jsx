@@ -1,6 +1,6 @@
 import React from 'react';
 import EducationDetails from './EducationDetails';
-import ResumeSection from '../components/ResumeSection';
+import ResumeSection from '../../components/ResumeSection';
 
 const Education = () => {
   return (

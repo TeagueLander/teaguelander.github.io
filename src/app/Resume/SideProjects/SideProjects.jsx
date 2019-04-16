@@ -1,6 +1,6 @@
 import React from 'react';
-import ResumeSection from '../components/ResumeSection';
-import ResumeSectionDetails from '../components/ResumeSectionDetails';
+import ResumeSection from '../../components/ResumeSection';
+import ResumeSectionDetails from '../../components/ResumeSectionDetails';
 
 const SideProjects = () => {
   return (

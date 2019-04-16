@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ResumeSectionDetails from '../components/ResumeSectionDetails';
-import dateFormatter from '../utils/dateFormatter';
+import ResumeSectionDetails from '../../components/ResumeSectionDetails';
+import dateFormatter from '../../utils/dateFormatter';
 
 const WorkExperienceDetails = ({
   jobTitle,

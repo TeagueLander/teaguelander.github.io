@@ -1,0 +1,18 @@
+.section.skills .box .content .columns .column {
+  padding: 50px 30px;
+  border-bottom: 1px solid $border-light;
+  border-right: 0px solid $border-light;
+}
+
+.section.skills .box .content .columns .column:last-child {
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (min-width: $tablet) {
+  .section.skills .box .content .columns .column {
+    border-bottom: 0px solid $border-light;
+    border-right: 1px solid $border-light;
+    padding: 60px 35px;
+  }
+}

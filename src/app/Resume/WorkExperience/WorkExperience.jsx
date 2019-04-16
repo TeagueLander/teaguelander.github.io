@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkExperienceDetails from './WorkExperienceDetails';
-import ResumeSection from '../components/ResumeSection';
+import ResumeSection from '../../components/ResumeSection';
 
 const WorkExperience = () => {
   return (
