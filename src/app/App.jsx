@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader/index';
-import MyHero from './MyHero/MyHero';
-import WorkExperience from './Resume/WorkExperience/WorkExperience';
-import Education from './Resume/Education/Education';
-import SideProjects from './Resume/SideProjects/SideProjects';
-import SkillsSection from './Skills/SkillsSection';
+import MyHero from './MyHero';
+
+import SkillsSection from './SkillsSection';
+import WebSkillColumn from './SkillsSection/SkillColumn/WebSkillColumn';
+import DevopsSkillColumn from './SkillsSection/SkillColumn/DevopsSkillColumn';
+import TestSkillColumn from './SkillsSection/SkillColumn/TestSkillColumn';
 
 class App extends Component {
   constructor(props) {
@@ -16,12 +17,16 @@ class App extends Component {
     return (
       <div>
         <MyHero />
-        <SkillsSection />
-        <br />
-        <br />
-        <Education />
-        <SideProjects />
-        <WorkExperience />
+        <SkillsSection>
+          <DevopsSkillColumn />
+          <WebSkillColumn />
+          <TestSkillColumn />
+        </SkillsSection>
+        {/* <br /> */}
+        {/* <br /> */}
+        {/* <Education /> */}
+        {/* <SideProjects /> */}
+        {/* <WorkExperience /> */}
       </div>
     );
   }
