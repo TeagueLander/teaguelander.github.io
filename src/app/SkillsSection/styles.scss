@@ -5,8 +5,12 @@
 }
 
 .skills .box > .content >.columns > .column:last-child {
-  //border-bottom: none;
+  border-bottom: none;
   border-right: none;
+}
+
+.skills .no-border-right {
+  border-right: none !important;
 }
 
 @media screen and (min-width: $tablet) {
@@ -14,6 +18,13 @@
     border-bottom: 0px solid $border-light;
     border-right: 1px solid $border-light;
     padding: 60px 35px;
+  }
+
+  .skills .own-row {
+    border-top: 1px solid $border-light;
+    margin-top: 0.5em;
+    width: 100%;
+    flex: none;
   }
 }
 

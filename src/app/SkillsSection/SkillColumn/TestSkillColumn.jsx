@@ -8,9 +8,9 @@ import junitIcon from '../../../images/test/icon-junit.svg';
 import puppeteerIcon from '../../../images/test/icon-puppeteer-centered.svg';
 import postmanIcon from '../../../images/test/icon-postman.svg';
 
-const TestSkillColumn = () => {
+const TestSkillColumn = ({ ...props }) => {
   return (
-    <SkillColumn title="Let's talk Testing">
+    <SkillColumn title="Let's talk Testing" {...props}>
       <IconRow>
         <TechIcon imgSrc={postmanIcon} altText="Postman" paddingSides={0} />
         <TechIcon imgSrc={junitIcon} altText="JUnit" />

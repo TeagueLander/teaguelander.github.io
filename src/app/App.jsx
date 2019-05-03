@@ -6,6 +6,7 @@ import SkillsSection from './SkillsSection';
 import WebSkillColumn from './SkillsSection/SkillColumn/WebSkillColumn';
 import DevopsSkillColumn from './SkillsSection/SkillColumn/DevopsSkillColumn';
 import TestSkillColumn from './SkillsSection/SkillColumn/TestSkillColumn';
+import OtherSkillColumn from './SkillsSection/SkillColumn/OtherSkillColumn';
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +21,8 @@ class App extends Component {
         <SkillsSection>
           <DevopsSkillColumn />
           <WebSkillColumn />
-          <TestSkillColumn />
+          <TestSkillColumn className="no-border-right" />
+          <OtherSkillColumn className="own-row" />
         </SkillsSection>
         {/* <br /> */}
         {/* <br /> */}

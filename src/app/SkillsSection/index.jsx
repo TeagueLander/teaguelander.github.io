@@ -8,7 +8,7 @@ const SkillsSection = ({ children }) => {
         <h2 className="title is-marginless">Skills</h2>
         <div className="box">
           <div className="content">
-            <div className="columns">{children}</div>
+            <div className="columns is-multiline">{children}</div>
           </div>
         </div>
       </div>

@@ -9,9 +9,9 @@ import reactIcon from '../../../images/web/icon-reactjs.svg';
 import springIcon from '../../../images/web/icon-spring.svg';
 import webpackIcon from '../../../images/web/icon-webpack.svg';
 
-const WebSkillColumn = () => {
+const WebSkillColumn = ({ ...props }) => {
   return (
-    <SkillColumn title="Let's talk Web">
+    <SkillColumn title="Let's talk Web" {...props}>
       <IconRow>
         <TechIcon imgSrc={springIcon} altText="Spring" />
         <TechIcon imgSrc={reactIcon} altText="ReactJs" />
