@@ -6,7 +6,7 @@ import SkillList from '../SkillList';
 import SkillListItem from '../SkillList/SkillListItem';
 import KW from '../../components/Keyword';
 
-import dockerIcon from '../../../images/tools/icon-docker-flat.svg';
+import dockerIcon from '../../../images/tools/icon-docker-no-words.svg';
 import jenkinsIcon from '../../../images/tools/icon-jenkins.svg';
 import mavenIcon from '../../../images/tools/icon-maven-justm.svg';
 import gitIcon from '../../../images/tools/icon-git.svg';
@@ -38,6 +38,10 @@ const DevopsSkillColumn = ({ ...props }) => {
         <SkillListItem>
           Managed <KW>Gitflow</KW>-style feature branches using <KW>GitHub</KW>{' '}
           and <KW>Bitbucket</KW>
+        </SkillListItem>
+        <SkillListItem>
+          Wrote cascading <KW>configuration files</KW> generic and client
+          specific configurations
         </SkillListItem>
       </SkillList>
     </SkillColumn>
