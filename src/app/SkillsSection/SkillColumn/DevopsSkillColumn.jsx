@@ -10,6 +10,7 @@ import dockerIcon from '../../../images/tools/icon-docker-no-words.svg';
 import jenkinsIcon from '../../../images/tools/icon-jenkins.svg';
 import mavenIcon from '../../../images/tools/icon-maven-justm.svg';
 import gitIcon from '../../../images/tools/icon-git.svg';
+import npmIcon from '../../../images/tools/icon-npm.svg';
 
 const DevopsSkillColumn = ({ ...props }) => {
   return (
@@ -20,6 +21,7 @@ const DevopsSkillColumn = ({ ...props }) => {
         <TechIcon imgSrc={dockerIcon} altText="Docker" />
         <TechIcon imgSrc={jenkinsIcon} altText="Jenkins" />
         <TechIcon imgSrc={gitIcon} altText="Git" paddingSides={0.1} />
+        <TechIcon imgSrc={npmIcon} altText="npm" />
       </IconRow>
       <SkillList>
         <SkillListItem>
@@ -39,9 +41,13 @@ const DevopsSkillColumn = ({ ...props }) => {
           Managed <KW>Gitflow</KW>-style feature branches using <KW>GitHub</KW>{' '}
           and <KW>Bitbucket</KW>
         </SkillListItem>
+        {/* <SkillListItem> */}
+        {/*  Wrote cascading <KW>configuration files</KW> generic and client */}
+        {/*  specific configurations */}
+        {/* </SkillListItem> */}
         <SkillListItem>
-          Wrote cascading <KW>configuration files</KW> generic and client
-          specific configurations
+          Setup web development/production configurations and managed
+          dependecies using <KW>npm</KW>
         </SkillListItem>
       </SkillList>
     </SkillColumn>
