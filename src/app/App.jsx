@@ -54,7 +54,25 @@ class App extends Component {
               ),
             ]}
             imgSrc={iconJea}
-          />
+          >
+            <ul>
+              <li>
+                Implemented <KW>mobile and web user interfaces</KW> using{' '}
+                <KW>HTML</KW> and <KW>CSS</KW>{' '}
+              </li>
+              <li>
+                Developed <KW>RESTful APIs</KW> using <KW>Spring Boot</KW>
+              </li>
+              <li>
+                Used JIRA to track development tasks and issues, and Subversion
+                and Git for source control
+              </li>
+              <li>
+                Researched and documented new technologies, and implemented new
+                methods to streamline project development
+              </li>
+            </ul>
+          </TeagueSection>
         </ResumeSection>
 
         {/* SIDE PROJECTS */}
