@@ -62,10 +62,6 @@ class App extends Component {
                 <KW>deployment</KW>
               </li>
               <li>
-                <KW>Deployed</KW> and upgraded applications to client
-                environments
-              </li>
-              <li>
                 Developed <KW>RESTful APIs</KW> using <KW>Spring Boot</KW>, and
                 built web applications and components in <KW>React</KW> and{' '}
                 <KW>AngularJS</KW>
@@ -73,6 +69,9 @@ class App extends Component {
               <li>
                 Used <KW>JIRA</KW> to track development tasks and issues; used
                 <KW>Git</KW> and <KW>Subversion</KW> for source control
+              </li>
+              <li>
+                <KW>Deployed</KW> and upgraded services on client environments
               </li>
               <li>
                 <KW>Researched</KW> and <KW>documented</KW> new technologies
