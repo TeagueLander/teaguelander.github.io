@@ -5,7 +5,7 @@ const ResumeSection = ({ title, className = '', children }) => {
   return (
     <section className={`section resume-section ${className}`}>
       <div className="container is-narrow">
-        <h2 className="title is-size-2-desktop">{title}</h2>
+        <h2 className="title is-size-3-desktop">{title}</h2>
         <div className="box">
           <div className="content">
             <div className="columns is-multiline">{children}</div>

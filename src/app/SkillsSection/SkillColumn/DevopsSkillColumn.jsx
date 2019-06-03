@@ -41,14 +41,10 @@ const DevopsSkillColumn = ({ ...props }) => {
           Managed <KW>Gitflow</KW>-style feature branches using <KW>GitHub</KW>{' '}
           and <KW>Bitbucket</KW>
         </SkillListItem>
-        {/* <SkillListItem> */}
-        {/*  Wrote cascading <KW>configuration files</KW> generic and client */}
-        {/*  specific configurations */}
-        {/* </SkillListItem> */}
-        <SkillListItem>
+        {/* <SkillListItem>
           Setup web development/production configurations and managed
           dependecies using <KW>npm</KW>
-        </SkillListItem>
+        </SkillListItem> */}
       </SkillList>
     </SkillColumn>
   );
