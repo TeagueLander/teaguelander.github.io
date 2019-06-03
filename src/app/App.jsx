@@ -18,6 +18,8 @@ import iconJea from '../images/work/icon-jea.png';
 
 import dateFormatter from './utils/dateFormatter';
 
+import FloatingContact from './FloatingContact';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -138,6 +140,8 @@ class App extends Component {
             imgSrc={uvicLogo}
           />
         </ResumeSection>
+
+        <FloatingContact />
       </React.Fragment>
     );
   }
