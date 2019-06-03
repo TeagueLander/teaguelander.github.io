@@ -13,7 +13,9 @@
   },
   "root": true,
   "rules": {
-    "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}],
+    "react/no-array-index-key": "warn",
+    "max-len": [2, 160, 4, {"ignoreComments": true}],
+    "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
     "no-use-before-define": "off",
 
     "indent": ["error", 2],
@@ -60,7 +62,7 @@
       }
     ],
     "react/jsx-indent": ["warn", 2],
-    "react/jsx-key": "error",
+    "react/jsx-key": "warn",
     "react/jsx-wrap-multilines": ["warn"],
     "react/jsx-indent-props": 0,
     "no-trailing-spaces": [2, { "skipBlankLines": true }],

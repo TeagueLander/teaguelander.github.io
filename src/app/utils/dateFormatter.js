@@ -14,6 +14,9 @@ function formatDate(date) {
 }
 
 function buildDateRangeString(startDate, endDate) {
+  if (startDate == null) {
+    return null;
+  }
   if (!endDate) {
     return formatDate(startDate);
   }

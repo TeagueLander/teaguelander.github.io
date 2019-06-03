@@ -1,3 +1,24 @@
 body {
   font-family: "Open Sans", "Trebuchet MS", "Lucida Grande";
 }
+
+.section {
+  padding: 2rem 1.5rem;
+}
+
+.no-vertical-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media print {
+  .is-hidden-print {
+    display: none !important;
+  }
+}
+
+@media screen {
+  .only-show-print {
+    display: none !important;
+  }
+}

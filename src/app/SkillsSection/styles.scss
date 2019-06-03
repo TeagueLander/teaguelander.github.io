@@ -1,31 +1,7 @@
-.skills .box > .content > .columns > .column {
-  padding: 50px 30px;
-  border-bottom: 1px solid $border-light;
-  border-right: 0px solid $border-light;
-}
-
-.skills .box > .content >.columns > .column:last-child {
-  border-bottom: none;
-  border-right: none;
-}
-
-.skills .no-border-right {
-  border-right: none !important;
-}
-
-@media screen and (min-width: $tablet) {
-  .skills .box > .content > .columns > .column {
-    border-bottom: 0px solid $border-light;
-    border-right: 1px solid $border-light;
-    padding: 60px 35px;
-  }
-
-  .skills .own-row {
-    border-top: 1px solid $border-light;
-    margin-top: 0.5em;
-    width: 100%;
-    flex: none;
-  }
+.skill-list-col-2 {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 .skills figure {
@@ -33,6 +9,6 @@
   align-items: center;
   height: 100%;
   margin: 0 !important;
-  padding: 0.25em;
-  max-width: 4.5em;
+  padding: 0.25rem;
+  max-width: 4.5rem;
 }

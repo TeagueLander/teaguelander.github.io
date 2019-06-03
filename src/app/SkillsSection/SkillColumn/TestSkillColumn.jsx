@@ -17,14 +17,30 @@ const TestSkillColumn = ({ ...props }) => {
     <SkillColumn title="Let's talk Testing" {...props}>
       <IconRow>
         <TechIcon imgSrc={junitIcon} altText="JUnit" />
-        <TechIcon imgSrc={postmanIcon} altText="Postman" paddingSides={0.1} />
-        <TechIcon imgSrc={puppeteerIcon} altText="Puppeteer" />
         <TechIcon imgSrc={jestIcon} altText="Jest" paddingSides={0.1} />
+        <TechIcon imgSrc={puppeteerIcon} altText="Puppeteer" />
+        <TechIcon imgSrc={postmanIcon} altText="Postman" paddingSides={0.1} />
         <TechIcon imgSrc={browserStackIcon} altText="BrowserStack" />
       </IconRow>
       <SkillList>
         <SkillListItem>
-          Wrote <KW>fdfsd</KW>
+          Composed functional and integration tests in <KW>JUnit</KW>; tested
+          invidiual services along with data-layer and web-endpoint interactions
+        </SkillListItem>
+        <SkillListItem>
+          Wrote component tests client-side tests in <KW>Jest</KW>
+        </SkillListItem>
+        <SkillListItem>
+          Combined <KW>Jest</KW> and <KW>Puppeteer</KW> to write versatile
+          end-to-end tests
+        </SkillListItem>
+        <SkillListItem>
+          Compiled a collection of <KW>Postman</KW> requests to test
+          applications in development and production
+        </SkillListItem>
+        <SkillListItem>
+          Wrote <KW>Selenium</KW> based tests which ran in <KW>Browserstack</KW>{' '}
+          against a wide variety types of clients
         </SkillListItem>
       </SkillList>
     </SkillColumn>

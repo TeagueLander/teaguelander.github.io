@@ -1,10 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TechIcon = ({ children }) => <b>{children}</b>;
+const Keyword = ({ children }) => <b>{children}</b>;
 
-TechIcon.propTypes = {
+export const KeywordAnchor = ({ children, ...props }) => (
+  <a {...props} target="_blank">
+    <b>{children}</b>
+  </a>
+);
+
+Keyword.propTypes = {
   children: PropTypes.node,
 };
 
-export default TechIcon;
+KeywordAnchor.propTypes = Keyword.propTypes;
+
+export default Keyword;
