@@ -32,13 +32,17 @@ class App extends Component {
     const linkFastLootGithub = 'https://github.com/TeagueLander/FastLoot';
     const linkFastLootNexusMods = 'https://www.nexusmods.com/skyrim/mods/72157';
 
+    const classOfFirstThreeSkillColumns = 'is-4';
+
     return (
       <React.Fragment>
         <MyHero />
         <ResumeSection title="Skills" className="skills box-divided">
-          <DevopsSkillColumn />
-          <WebSkillColumn />
-          <TestSkillColumn className="no-border-right" />
+          <DevopsSkillColumn className={`${classOfFirstThreeSkillColumns}`} />
+          <WebSkillColumn className={`${classOfFirstThreeSkillColumns}`} />
+          <TestSkillColumn
+            className={`no-border-right ${classOfFirstThreeSkillColumns}`}
+          />
           <OtherSkillColumn className="own-row" />
         </ResumeSection>
 

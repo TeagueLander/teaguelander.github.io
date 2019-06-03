@@ -15,6 +15,9 @@ body {
   .is-hidden-print {
     display: none !important;
   }
+  html {
+    font-size: 12px;
+  }
 }
 
 @media screen {

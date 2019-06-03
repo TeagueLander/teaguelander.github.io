@@ -2,6 +2,9 @@
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  column-gap: 3rem;
+  -webkit-column-gap: 3rem;
+  -moz-column-gap: 3rem;
 }
 
 .skills figure {
