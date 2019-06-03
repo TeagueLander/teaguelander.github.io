@@ -1,0 +1,25 @@
+.floating-contact {
+  position: fixed;
+  background: white;
+  right: 1px;
+  top: 1px;
+}
+
+.floating-contact li {
+  line-height: 1.25rem;
+}
+
+.contact-img {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  right: 0.25rem;
+  top: 0.2rem;
+}
+
+@media screen {
+  .floating-contact {
+    right: -6px;
+    top: -6px;
+  }
+}
