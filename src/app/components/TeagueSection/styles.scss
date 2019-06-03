@@ -1,8 +1,10 @@
+$image-height: 6em;
+
 figure.teague-section-image {
   margin: 0px;
   img {
-    height: 9em;
-    max-width: 9em;
+    height: $image-height;
+    max-width: $image-height;
   }
 }
 

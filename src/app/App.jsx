@@ -57,19 +57,25 @@ class App extends Component {
           >
             <ul>
               <li>
-                Implemented <KW>mobile and web user interfaces</KW> using{' '}
-                <KW>HTML</KW> and <KW>CSS</KW>{' '}
+                Setup a streamlined <KW>development pipeline</KW> that included{' '}
+                <KW>build management</KW>, <KW>testing</KW>, and{' '}
+                <KW>deployment</KW>
               </li>
               <li>
-                Developed <KW>RESTful APIs</KW> using <KW>Spring Boot</KW>
+                <KW>Deployed</KW> and upgraded applications to client
+                environments
               </li>
               <li>
-                Used JIRA to track development tasks and issues, and Subversion
-                and Git for source control
+                Developed <KW>RESTful APIs</KW> using <KW>Spring Boot</KW>, and
+                built web applications and components in <KW>React</KW> and{' '}
+                <KW>AngularJS</KW>
               </li>
               <li>
-                Researched and documented new technologies, and implemented new
-                methods to streamline project development
+                Used <KW>JIRA</KW> to track development tasks and issues; used
+                <KW>Git</KW> and <KW>Subversion</KW> for source control
+              </li>
+              <li>
+                <KW>Researched</KW> and <KW>documented</KW> new technologies
               </li>
             </ul>
           </TeagueSection>
@@ -123,8 +129,7 @@ class App extends Component {
           <TeagueSection
             title="University of Victoria"
             subtitles={[
-              'B.Sc., Computer Science',
-              'Computer Communication and Networks Option',
+              'B.Sc., Computer Science (Computer Communication and Networks Option)',
               'Graduated April 2018',
             ]}
             imgSrc={uvicLogo}
