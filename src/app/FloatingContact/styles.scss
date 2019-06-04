@@ -1,5 +1,5 @@
 .floating-contact {
-  position: fixed;
+  position: absolute;
   background: white;
   right: 1px;
   top: 1px;
@@ -7,13 +7,14 @@
 
 .floating-contact li {
   line-height: 1.25rem;
+  margin: 0.25rem 0;
 }
 
 .contact-img {
   height: 1.25rem;
   width: 1.25rem;
   position: relative;
-  right: 0.25rem;
+  right: 0.4rem;
   top: 0.2rem;
 }
 

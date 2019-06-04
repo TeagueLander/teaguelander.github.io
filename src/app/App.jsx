@@ -48,6 +48,8 @@ class App extends Component {
           <OtherSkillColumn className="own-row" />
         </ResumeSection>
 
+        <br className="only-show-print" />
+
         {/* Work History */}
         <ResumeSection title="Work History" className="work-history">
           <TeagueSection
