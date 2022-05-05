@@ -7,7 +7,7 @@ import SkillListItem from '../SkillList/SkillListItem';
 import KW from '../../components/Keyword';
 
 import dockerIcon from '../../../images/tools/icon-docker-no-words.svg';
-import jenkinsIcon from '../../../images/tools/icon-jenkins.svg';
+import jenkinsIcon from '../../../images/tools/icon-jenkins.png';
 import mavenIcon from '../../../images/tools/icon-maven-justm.svg';
 import gitIcon from '../../../images/tools/icon-git.svg';
 import npmIcon from '../../../images/tools/icon-npm.svg';
