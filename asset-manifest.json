@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/teaguelander.github.io/static/css/main.253c9ef5.css",
+    "main.js": "/teaguelander.github.io/static/js/main.9acd0ad2.js",
+    "static/media/uvic-cropped.svg": "/teaguelander.github.io/static/media/uvic-cropped.ea0bf1167c7d23cba263e5d990fd17d5.svg",
+    "static/media/icon-puppeteer-centered.svg": "/teaguelander.github.io/static/media/icon-puppeteer-centered.9cafb59288640e4a9fd3a0e414c94f8a.svg",
+    "static/media/icon-skyrim.svg": "/teaguelander.github.io/static/media/icon-skyrim.fc3188d8878019a074530b68185ceb87.svg",
+    "static/media/icon-zookeeper-cropped.svg": "/teaguelander.github.io/static/media/icon-zookeeper-cropped.712414dfe1b2cbca0e74785fb19b65f7.svg",
+    "static/media/icon-perfectcast.svg": "/teaguelander.github.io/static/media/icon-perfectcast.3557c8b227109c9524a79798452afbaf.svg",
+    "static/media/icon-jea.png": "/teaguelander.github.io/static/media/icon-jea.3dd0e0d0134699c9884e.png",
+    "static/media/icon-docker-no-words.svg": "/teaguelander.github.io/static/media/icon-docker-no-words.01c8317424293ae32c9af306a37ee76b.svg",
+    "static/media/icon-oracle.svg": "/teaguelander.github.io/static/media/icon-oracle.f0959d359e0ca384f9808c45444e2e2e.svg",
+    "static/media/icon-postgres.svg": "/teaguelander.github.io/static/media/icon-postgres.29aef66790dafa021ec4c36bbd59e370.svg",
+    "static/media/icon-postman.svg": "/teaguelander.github.io/static/media/icon-postman.5bcdb9014ecbc0773bbcb6c59289d73e.svg",
+    "static/media/icon-redhat.svg": "/teaguelander.github.io/static/media/icon-redhat.2867efad8a30270a83f6ce3d35a01553.svg",
+    "static/media/icon-junit.svg": "/teaguelander.github.io/static/media/icon-junit.ae4f8d17bc2c28fabac986f48ccb07b4.svg",
+    "static/media/icon-sass.svg": "/teaguelander.github.io/static/media/icon-sass.06bf8b606920c1b2393f547870c1cf08.svg",
+    "static/media/icon-jest.svg": "/teaguelander.github.io/static/media/icon-jest.2c31a2227df9387bdce458acfd47de1a.svg",
+    "static/media/icon-idea.svg": "/teaguelander.github.io/static/media/icon-idea.44783b6b6e319c9b064dafbbb99a6cc2.svg",
+    "static/media/icon-reactjs.svg": "/teaguelander.github.io/static/media/icon-reactjs.6c1d44b8c59f0f72ff199a54ceed774c.svg",
+    "static/media/icon-redux.svg": "/teaguelander.github.io/static/media/icon-redux.7c9aa294e077932f8ed59f5bba2e4c22.svg",
+    "static/media/icon-browserstack.svg": "/teaguelander.github.io/static/media/icon-browserstack.49246ed215ffd550384d1fc8a89a2605.svg",
+    "static/media/icon-android.svg": "/teaguelander.github.io/static/media/icon-android.aece715709de8d8b809af6dbcf62651d.svg",
+    "static/media/icon-maven-justm.svg": "/teaguelander.github.io/static/media/icon-maven-justm.3e7f932ee27984f0e7597ac8838e0abc.svg",
+    "static/media/icon-github.svg": "/teaguelander.github.io/static/media/icon-github.16a9304e38fd8167989291ab92544e14.svg",
+    "index.html": "/teaguelander.github.io/index.html",
+    "static/media/icon-spring.svg": "/teaguelander.github.io/static/media/icon-spring.d333f33caee4cd8f3993a548646c1852.svg",
+    "static/media/icon-git.svg": "/teaguelander.github.io/static/media/icon-git.6d27b5e0cde4ddb87e031ca706aa8350.svg",
+    "static/media/icon-solr-no-words.svg": "/teaguelander.github.io/static/media/icon-solr-no-words.916148e3a5e08ed4573d693a71fdbc7d.svg",
+    "static/media/icon-webpack.svg": "/teaguelander.github.io/static/media/icon-webpack.353eb5cb77789b2e9d56f8edb5775648.svg",
+    "static/media/icon-angular.svg": "/teaguelander.github.io/static/media/icon-angular.0787912570a00f4bf373c7e861f923fe.svg",
+    "static/media/icon-phone.svg": "/teaguelander.github.io/static/media/icon-phone.fa73907d058b625e82738934fd9e419a.svg",
+    "static/media/icon-email.svg": "/teaguelander.github.io/static/media/icon-email.6ac62bfa03e2a985535678e82ffed575.svg",
+    "static/media/icon-npm.svg": "/teaguelander.github.io/static/media/icon-npm.a4b5d4885ae0bea44f4d588193798290.svg",
+    "main.253c9ef5.css.map": "/teaguelander.github.io/static/css/main.253c9ef5.css.map",
+    "main.9acd0ad2.js.map": "/teaguelander.github.io/static/js/main.9acd0ad2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.253c9ef5.css",
+    "static/js/main.9acd0ad2.js"
+  ]
+}
