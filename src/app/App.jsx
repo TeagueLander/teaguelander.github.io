@@ -28,8 +28,6 @@ class App extends Component {
 
   render() {
     const linkPerfectCastGithub = 'https://github.com/TeagueLander/PerfectCast';
-    const linkPerfectCastGooglePlay =
-      'https://play.google.com/store/apps/details?id=com.teaguelander.audio.perfectcast';
 
     const linkFastLootGithub = 'https://github.com/TeagueLander/FastLoot';
     const linkFastLootNexusMods = 'https://www.nexusmods.com/skyrim/mods/72157';
@@ -114,11 +112,10 @@ class App extends Component {
                 formats
               </li>
               <li className="is-hidden-print">
-                Check it out on <KWA href={linkPerfectCastGithub}>Github</KWA>{' '}
-                and <KWA href={linkPerfectCastGooglePlay}>Google Play</KWA>
+                Check it out on <KWA href={linkPerfectCastGithub}>Github</KWA>
               </li>
               <li className="only-show-print">
-                Can be found on <KW>Github</KW> and <KW>Google Play</KW>
+                Can be found on <KW>Github</KW>
               </li>
             </ul>
           </TeagueSection>
