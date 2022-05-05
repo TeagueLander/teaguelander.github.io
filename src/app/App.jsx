@@ -53,7 +53,7 @@ class App extends Component {
         {/* Work History */}
         <ResumeSection title="Work History" className="work-history">
           <TeagueSection
-            title="Web Developer"
+            title="Developer"
             subtitles={[
               'James Evans and Associates (JEA)',
               dateFormatter.buildDateRangeString(
@@ -75,7 +75,7 @@ class App extends Component {
                 <KW>AngularJS</KW>
               </li>
               <li>
-                Used <KW>JIRA</KW> to track development tasks and issues; used
+                Used <KW>JIRA</KW> to track development tasks and issues; used{' '}
                 <KW>Git</KW> and <KW>Subversion</KW> for source control
               </li>
               <li>
@@ -86,6 +86,18 @@ class App extends Component {
               </li>
             </ul>
           </TeagueSection>
+        </ResumeSection>
+
+        {/* EDUCATION */}
+        <ResumeSection title="Education" className="education">
+          <TeagueSection
+            title="University of Victoria"
+            subtitles={[
+              'B.Sc., Computer Science (Computer Communication and Networks Option)',
+              'Graduated April 2018',
+            ]}
+            imgSrc={uvicLogo}
+          />
         </ResumeSection>
 
         {/* SIDE PROJECTS */}
@@ -129,18 +141,6 @@ class App extends Component {
               </li>
             </ul>
           </TeagueSection>
-        </ResumeSection>
-
-        {/* EDUCATION */}
-        <ResumeSection title="Education" className="education">
-          <TeagueSection
-            title="University of Victoria"
-            subtitles={[
-              'B.Sc., Computer Science (Computer Communication and Networks Option)',
-              'Graduated April 2018',
-            ]}
-            imgSrc={uvicLogo}
-          />
         </ResumeSection>
 
         <FloatingContact />
