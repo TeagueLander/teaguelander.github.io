@@ -14,6 +14,7 @@ import uvicLogo from '../images/education/uvic-cropped.svg';
 import perfectCastLogo from '../images/projects/icon-perfectcast.svg';
 import fastLootLogo from '../images/projects/icon-skyrim.svg';
 import iconJea from '../images/work/icon-jea.png';
+import iconMfa from '../images/work/icon-mfa.jpg';
 
 import dateFormatter from './utils/dateFormatter';
 
@@ -38,10 +39,8 @@ class App extends Component {
         <MyHero />
         <ResumeSection title="Skills" className="skills box-divided">
           <DevopsSkillColumn className={`${classOfFirstThreeSkillColumns}`} />
-          <WebSkillColumn className={`${classOfFirstThreeSkillColumns}`} />
-          <TestSkillColumn
-            className={`no-border-right ${classOfFirstThreeSkillColumns}`}
-          />
+          <TestSkillColumn className={`${classOfFirstThreeSkillColumns}`} />
+          <WebSkillColumn className={`no-border-right ${classOfFirstThreeSkillColumns}`} />
           <OtherSkillColumn className="own-row" />
         </ResumeSection>
 
@@ -50,12 +49,46 @@ class App extends Component {
         {/* Work History */}
         <ResumeSection title="Work History" className="work-history">
           <TeagueSection
+            title="Programmer/Analyst"
+            subtitles={[
+              'Municipal Finance Authority of BC (MFABC)',
+              dateFormatter.buildDateRangeString(
+                  new Date('October 2019'),
+                  'Present',
+              ),
+            ]}
+            imgSrc={iconMfa}
+          >
+            <ul>
+              <li>
+                Setup <KW>AWS Accounts</KW> and leveraged cloud services
+                for backup, logging, compute, CI/CD, security, networking,
+                and identity management
+              </li>
+              <li>
+                Automated <KW>Linux</KW> environment setup and key processes
+                using <KW>Ansible Playbooks</KW>
+              </li>
+              <li>
+                Setup <KW>Github Actions</KW> to build applications
+                using <KW>Gradle</KW> and <KW>Ant</KW>, to streamline
+                the release process
+              </li>
+              <li>
+                Implemented, developed, and deployed new features and modules
+                for a financial management system
+                using <KW>Java</KW>, <KW>Postgres</KW>, and <KW>React</KW>
+              </li>
+            </ul>
+          </TeagueSection>
+          
+          <TeagueSection
             title="Developer"
             subtitles={[
               'James Evans and Associates (JEA)',
               dateFormatter.buildDateRangeString(
                 new Date('July 2016'),
-                'Present',
+                new Date('October 2019'),
               ),
             ]}
             imgSrc={iconJea}

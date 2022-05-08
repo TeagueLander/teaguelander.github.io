@@ -3,6 +3,7 @@ import SkillColumn from './index';
 import TechIcon from '../../components/TechIcon';
 import IconRow from '../../components/IconRow';
 
+import githubActionsIcon from '../../../images/tools/icon-github-actions.png';
 import jestIcon from '../../../images/test/icon-jest.svg';
 import junitIcon from '../../../images/test/icon-junit.svg';
 import puppeteerIcon from '../../../images/test/icon-puppeteer-centered.svg';
@@ -28,7 +29,7 @@ const TestSkillColumn = ({ ...props }) => {
           invidiual services along with data-layer and web-endpoint interactions
         </SkillListItem>
         <SkillListItem>
-          Wrote component tests client-side tests in <KW>Jest</KW>
+          Wrote component and client-side tests in <KW>Jest</KW>
         </SkillListItem>
         <SkillListItem>
           Combined <KW>Jest</KW> and <KW>Puppeteer</KW> to write versatile
@@ -40,7 +41,7 @@ const TestSkillColumn = ({ ...props }) => {
         </SkillListItem>
         <SkillListItem>
           Wrote <KW>Selenium</KW> based tests which ran in <KW>Browserstack</KW>{' '}
-          against a wide variety types of clients
+          against a wide variety of browser agents
         </SkillListItem>
       </SkillList>
     </SkillColumn>
