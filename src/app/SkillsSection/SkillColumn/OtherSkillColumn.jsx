@@ -50,15 +50,15 @@ const OtherSkillColumn = ({ ...props }) => {
           Worked with both <KW>Postgres</KW> and <KW>Oracle SQL</KW> databases
         </SkillListItem>
         <SkillListItem>
-          Implemented search in <KW>Solr</KW>
-        </SkillListItem>
-        <SkillListItem>
           Developed with and deployed applications to{' '}
           <KW>Red Hat Enterprise Linux</KW>
         </SkillListItem>
         <SkillListItem>
           Integrated applications with the <KW>Microsoft Identity Platform</KW>{' '}
           using <KW>OAuth</KW>
+        </SkillListItem>
+        <SkillListItem>
+          Implemented search in <KW>Solr</KW>
         </SkillListItem>
         <SkillListItem>
           Implemented <KW>microservice discovery</KW> in <KW>Apache Kafka</KW>
